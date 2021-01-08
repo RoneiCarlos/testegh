@@ -1,0 +1,392 @@
+html, body {
+  margin: 0;
+  background-color: white; }
+
+#vp {
+  max-height: 100vh; }
+
+#menu {
+  height: 14%;
+  padding-top: 2%;
+  margin-bottom: 2%; }
+  #menu .navbar {
+    padding: 0px;
+    align-items: flex-start; }
+    #menu .navbar .navbar-toggler {
+      float: right;
+      border: none;
+      font-size: 1rem;
+      display: inline-block; }
+    #menu .navbar .navbar-collapse {
+      width: auto;
+      margin-top: 16px; }
+    #menu .navbar .show {
+      margin-left: -56.5px;
+      margin-bottom: .6rem; }
+  #menu .navbar-expand-lg {
+    justify-content: space-between !important; }
+
+.logo {
+  float: left; }
+  .logo img {
+    width: 52px; }
+
+.menu {
+  margin-top: 15px;
+  float: right; }
+  .menu ul {
+    list-style: none;
+    margin-right: -2.5rem; }
+    .menu ul li {
+      float: left;
+      margin-right: 2.5rem;
+      display: inline-block; }
+      .menu ul li a {
+        font-size: 0.8rem;
+        text-decoration: none;
+        color: black; }
+
+.idioma {
+  color: #1F7CBF;
+  margin-top: 21px;
+  float: right;
+  font-weight: bold;
+  font-size: 0.7rem;
+  margin-right: 2.3rem;
+  letter-spacing: 1px; }
+  .idioma ul {
+    list-style: none; }
+    .idioma ul li {
+      float: left; }
+      .idioma ul li a {
+        text-decoration: underline; }
+      .idioma ul li span {
+        margin: 0 .5rem 0 .5rem; }
+
+.externo {
+  float: right;
+  padding: 0;
+  margin: 0;
+  height: 50px;
+  width: 50px;
+  background-color: #1F7CBF;
+  border-radius: 50%; }
+  .externo .interno {
+    margin: 2px 2px 2px 2px;
+    height: 46px;
+    width: 46px;
+    background-color: white;
+    border-radius: 50%; }
+    .externo .interno i {
+      color: #1F7CBF;
+      margin-left: 16px;
+      margin-top: 15px; }
+
+#imagem {
+  width: 100%;
+  max-height: 50vh;
+  overflow: hidden; }
+  #imagem img {
+    margin-top: -18%; }
+
+#um {
+  margin-top: -13rem; }
+  #um .card {
+    margin-bottom: 6rem;
+    float: right;
+    position: relative;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1); }
+    #um .card form {
+      margin: 2rem 1.8rem; }
+      #um .card form h3 {
+        font-weight: bold;
+        color: #1F7CBF;
+        letter-spacing: -1px;
+        font-size: 2rem;
+        margin-left: 12px; }
+      #um .card form input {
+        font-size: .8rem;
+        border: none;
+        border-bottom: line;
+        padding: 8px 8px 8px 0;
+        border-bottom: 1.5px solid #e4e4e4;
+        border-radius: 0px;
+        margin-left: 0px;
+        margin-top: 1rem; }
+      #um .card form ::-webkit-input-placeholder {
+        color: black; }
+      #um .card form button {
+        background-color: #1F7CBF;
+        margin-top: 2.7rem;
+        border-radius: 0px; }
+  #um .t1 {
+    margin-top: 16.5rem;
+    position: relative;
+    float: left; }
+    #um .t1 h2 {
+      color: #1F7CBF;
+      font-size: 3rem;
+      font-weight: bold;
+      letter-spacing: -2px;
+      line-height: 3rem;
+      margin-bottom: 2rem; }
+    #um .t1 p {
+      font-size: 1rem;
+      padding: 0px;
+      margin-bottom: 3rem;
+      letter-spacing: -.8px; }
+
+#dois {
+  margin-top: 3rem; }
+  #dois .t2 {
+    margin-bottom: 7rem; }
+    #dois .t2 p {
+      font-weight: bold;
+      font-size: .9rem;
+      text-align: justify;
+      letter-spacing: -1px; }
+
+#tres .offset-xxl-4 {
+  margin-left: 21rem; }
+
+#tres .offset-xl-4 {
+  margin-left: 21.5rem; }
+
+#tres .t3 {
+  padding-left: 0;
+  margin-bottom: 1rem; }
+  #tres .t3 h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: -3px;
+    color: #1F7CBF; }
+
+#tres .cards {
+  padding: 0;
+  margin-left: -1.7rem;
+  margin-right: -1.7rem; }
+  #tres .cards .card {
+    margin: 1.7rem;
+    position: relative;
+    float: left;
+    border: 1.7px solid #d4d4d4;
+    border-radius: 0px;
+    width: 16.5rem; }
+    #tres .cards .card h3 {
+      font-size: 1rem;
+      padding: 1rem;
+      padding-top: 2rem;
+      padding-left: 1.5rem;
+      padding-bottom: 0;
+      font-weight: bold; }
+    #tres .cards .card p {
+      line-height: 1.2rem;
+      font-size: 0.6rem;
+      padding: 1rem;
+      padding-left: 1.5rem; }
+    #tres .cards .card .skew {
+      background-color: #1F7CBF;
+      width: 3px;
+      height: 2.5rem;
+      margin-left: 13.2rem;
+      margin-top: -2.4rem;
+      margin-bottom: 1rem;
+      -webkit-transform: skew(-45deg);
+      -ms-transform: skew(-45deg);
+      transform: skew(-45deg); }
+    #tres .cards .card .skew-top {
+      background-color: white;
+      width: 3px;
+      height: .5rem;
+      margin-left: 14.7rem;
+      margin-top: -3.5rem;
+      margin-bottom: 1rem;
+      -webkit-transform: skew(45deg);
+      -ms-transform: skew(45deg);
+      transform: skew(45deg); }
+    #tres .cards .card .skew-bottom {
+      background-color: white;
+      width: 3px;
+      height: .5rem;
+      margin-left: 11.7rem;
+      margin-top: .5rem;
+      margin-bottom: 1rem;
+      -webkit-transform: skew(45deg);
+      -ms-transform: skew(45deg);
+      transform: skew(45deg); }
+
+#tres .btn {
+  margin-top: 1.7rem;
+  padding-top: .7rem;
+  background-color: #1F7CBF;
+  border-radius: 0px;
+  font-weight: bold;
+  font-size: .9rem;
+  letter-spacing: -1px; }
+
+#quatro h2 {
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: -3px;
+  color: #1F7CBF; }
+
+#quatro .cards2 .card {
+  border-style: none;
+  border-radius: 0;
+  color: white;
+  background-color: #030303; }
+  #quatro .cards2 .card .seta {
+    float: right; }
+    #quatro .cards2 .card .seta .reta {
+      width: 3rem;
+      margin-top: 1.6rem;
+      margin-right: 1rem;
+      height: 1px;
+      background-color: white; }
+    #quatro .cards2 .card .seta .skew-bottom {
+      margin-top: -.5px;
+      margin-left: 2.8rem;
+      width: 2px;
+      height: .3rem;
+      background-color: white;
+      -webkit-transform: skew(-45deg);
+      -ms-transform: skew(-45deg);
+      transform: skew(-45deg); }
+    #quatro .cards2 .card .seta .skew-top {
+      margin-top: -.6rem;
+      margin-left: 2.8rem;
+      width: 2px;
+      height: .3rem;
+      background-color: white;
+      -webkit-transform: skew(45deg);
+      -ms-transform: skew(45deg);
+      transform: skew(45deg); }
+    #quatro .cards2 .card .seta .skew-top-off {
+      margin-top: -.34rem;
+      margin-left: 2.54rem;
+      width: 2px;
+      height: .2rem;
+      background-color: #1F7CBF;
+      -webkit-transform: skew(-45deg);
+      -ms-transform: skew(-45deg);
+      transform: skew(-45deg); }
+    #quatro .cards2 .card .seta .skew-bottom-off {
+      margin-top: .323rem;
+      margin-left: 2.62rem;
+      width: 2px;
+      height: .2rem;
+      background-color: #1F7CBF;
+      -webkit-transform: skew(45deg);
+      -ms-transform: skew(45deg);
+      transform: skew(45deg); }
+  #quatro .cards2 .card .more {
+    float: right;
+    margin: 1rem 1rem 0 0; }
+    #quatro .cards2 .card .more p {
+      font-size: .8rem; }
+  #quatro .cards2 .card .texto {
+    width: 11rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 66%; }
+    #quatro .cards2 .card .texto h3 {
+      font-size: 1.5rem;
+      font-weight: bold;
+      letter-spacing: -2px; }
+    #quatro .cards2 .card .texto p {
+      font-size: .65rem; }
+    #quatro .cards2 .card .texto span p {
+      color: #bfbfbf;
+      font-size: .55rem; }
+    #quatro .cards2 .card .texto span .traco {
+      width: .7rem;
+      height: 1px;
+      background-color: #707070;
+      margin-top: -1rem; }
+
+#quatro .cards2 .godoc {
+  background-color: #1F7CBF; }
+  #quatro .cards2 .godoc .card-img-overlay .texto span .traco {
+    background-color: white; }
+
+#quatro .cards2 .gerencial .seta .skew-top-off, #quatro .cards2 .gerencial .seta .skew-bottom-off {
+  background-color: black; }
+
+#quatro .cards2 .gerencial .card-img-overlay {
+  background-color: #000c;
+  color: white; }
+
+#quatro .cards2 .vetherapy {
+  color: black;
+  background-color: #e4e4e4; }
+  #quatro .cards2 .vetherapy .seta .reta, #quatro .cards2 .vetherapy .seta .skew-bottom, #quatro .cards2 .vetherapy .seta .skew-top {
+    background-color: black; }
+  #quatro .cards2 .vetherapy .seta .skew-top-off, #quatro .cards2 .vetherapy .seta .skew-bottom-off {
+    background-color: #e4e4e4; }
+
+#quatro .t4 {
+  margin-left: 14rem; }
+  #quatro .t4 h2 {
+    font-size: 4rem; }
+
+#quatro .seta2 {
+  margin-top: -3.5rem; }
+  #quatro .seta2 .reta2 {
+    background-color: #1F7CBF;
+    width: 13rem;
+    height: 2px; }
+  #quatro .seta2 .skew-bottom2 {
+    margin-left: 12.5rem;
+    margin-top: -1px;
+    width: 3px;
+    height: 1rem;
+    background-color: #1F7CBF;
+    -webkit-transform: skew(-45deg);
+    -ms-transform: skew(-45deg);
+    transform: skew(-45deg); }
+  #quatro .seta2 .skew-top2 {
+    margin-left: 12.5rem;
+    margin-top: -1.99rem;
+    width: 3px;
+    height: 1rem;
+    background-color: #1F7CBF;
+    -webkit-transform: skew(45deg);
+    -ms-transform: skew(45deg);
+    transform: skew(45deg); }
+
+#rodape {
+  margin-top: 7rem;
+  background-color: #1F7CBF;
+  height: 50vh;
+  color: white; }
+  #rodape .lista {
+    margin-top: 7rem;
+    font-weight: bold;
+    font-size: 2.3rem;
+    letter-spacing: 1px; }
+    #rodape .lista ul {
+      list-style: none; }
+      #rodape .lista ul li {
+        float: left; }
+        #rodape .lista ul li a {
+          text-decoration: none;
+          color: white; }
+        #rodape .lista ul li span {
+          font-weight: normal;
+          margin: 0 .2rem 0 .2rem; }
+  #rodape .lista2 {
+    margin-top: 5rem;
+    font-weight: bold;
+    font-size: .55rem;
+    letter-spacing: 1px; }
+    #rodape .lista2 ul {
+      list-style: none; }
+      #rodape .lista2 ul li {
+        float: left;
+        margin-right: 2rem;
+        text-align: center; }
+        #rodape .lista2 ul li a {
+          text-decoration: none;
+          color: white; }

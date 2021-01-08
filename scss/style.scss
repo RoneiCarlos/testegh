@@ -1,0 +1,494 @@
+$cor-primaria: #1F7CBF;
+
+html, body {
+	margin:0;
+	background-color: white;
+}
+
+#vp {
+	max-height: 100vh;
+}
+
+#menu {
+	height: 14%;
+	padding-top: 2%;
+	margin-bottom: 2%;
+	.navbar {
+		padding: 0px;
+		align-items: flex-start;
+		.navbar-toggler {
+			float: right;
+			border: none;
+			font-size: 1rem;
+			display: inline-block;
+		}
+		.navbar-collapse {
+			width: auto;
+			margin-top: 16px;
+		}
+		.show {
+			margin-left: -56.5px;
+			margin-bottom: .6rem;
+		}
+	}
+	.navbar-expand-lg {
+		justify-content: space-between !important;
+	}
+}
+
+.logo {
+	float: left;
+	img {
+		width: 52px;
+	}
+}
+
+.menu {
+	margin-top: 15px;
+	float: right;
+	ul {
+		list-style: none;
+		margin-right: -2.5rem;
+		li {
+			float: left;
+			margin-right: 2.5rem;
+			display: inline-block;
+			a {
+				font-size: 0.8rem;
+				text-decoration: none;
+				color: black;
+			}
+		}
+	}
+}
+
+.idioma {
+	color: $cor-primaria;
+	margin-top: 21px;
+	float: right;
+	font-weight: bold;
+	font-size: 0.7rem;
+	margin-right: 2.3rem;
+	letter-spacing: 1px;
+	ul {
+		list-style: none;
+		li {
+			float: left;
+			a {
+				text-decoration: underline;
+			}
+			span {
+				margin: 0 .5rem 0 .5rem;
+			}
+		}
+	}
+}
+
+.externo {
+	float: right;
+	padding: 0;
+	margin: 0;
+	height: 50px;
+	width: 50px;
+	background-color: $cor-primaria;
+	border-radius: 50%;
+	.interno {
+		margin: 2px 2px 2px 2px;
+		height: 46px;
+		width: 46px;
+		background-color: white;
+		border-radius: 50%;
+		i{
+			color: $cor-primaria;
+			margin-left: 16px;
+			margin-top: 15px;
+		}
+	}
+}
+
+
+#imagem {
+    width: 100%;
+    max-height: 50vh;
+    overflow: hidden;
+    img {
+        margin-top: -18%;
+    }
+}
+
+#um {
+	margin-top: -13rem;
+	.card {
+		margin-bottom: 6rem;
+		float: right;
+		position: relative;
+		box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+		form {
+			margin: 2rem 1.8rem;
+			h3 {
+				font-weight: bold;
+				color: $cor-primaria;
+				letter-spacing: -1px;
+				font-size: 2rem;
+				margin-left: 12px;
+			}
+			input {
+				font-size: .8rem;
+				border: none;
+				border-bottom: line;
+				padding: 8px 8px 8px 0;
+				border-bottom: 1.5px solid #e4e4e4;
+				border-radius: 0px;
+				margin-left: 0px;
+				margin-top: 1rem;
+			}
+			::-webkit-input-placeholder {
+				color: black;
+			}
+			button {
+				background-color: $cor-primaria;
+				margin-top: 2.7rem;
+				border-radius: 0px;
+
+			}
+		}	
+	}
+	.t1 {
+		margin-top: 16.5rem;
+		position: relative;
+		float: left;
+		h2 {
+			color: $cor-primaria;
+			font-size: 3rem;
+			font-weight: bold;
+			letter-spacing: -2px;
+			line-height: 3rem;
+			margin-bottom: 2rem;
+		}
+		p {
+			font-size: 1rem;
+			padding: 0px;
+			margin-bottom: 3rem;
+			letter-spacing: -.8px;
+		}
+	}
+}
+
+#dois {
+	margin-top: 3rem;
+	.t2 {
+		margin-bottom: 7rem;
+		p {
+			font-weight: bold;
+			font-size: .9rem;
+			text-align: justify;
+			letter-spacing: -1px;
+		}
+	}
+}
+
+#tres {
+	.offset-xxl-4{
+		margin-left: 21rem;
+	}
+	.offset-xl-4 {
+		margin-left: 21.5rem;
+	}
+	.t3 {
+		padding-left: 0;
+		margin-bottom: 1rem;
+		h2 {
+			font-size: 3rem;
+			font-weight: bold;
+			letter-spacing: -3px;
+			color: $cor-primaria;
+		}
+	}
+	.cards {
+		padding: 0;
+		margin-left: -1.7rem;
+		margin-right: -1.7rem;
+		.card {
+			margin: 1.7rem;
+			position: relative;
+			float: left;
+			border: 1.7px solid #d4d4d4;
+			border-radius: 0px;
+			width: 16.5rem;
+			h3 {
+				font-size: 1rem;
+				padding: 1rem;
+				padding-top: 2rem;
+				padding-left: 1.5rem;
+				padding-bottom: 0;
+				font-weight: bold;
+			}
+			p {
+				line-height: 1.2rem;
+				font-size: 0.6rem;
+				padding: 1rem;
+				padding-left: 1.5rem;
+			}
+			.skew {
+				background-color: $cor-primaria;
+				width: 3px;
+				height: 2.5rem;
+				margin-left: 13.2rem;
+				margin-top: -2.4rem;
+				margin-bottom: 1rem;
+				-webkit-transform: skew(-45deg);
+	      		-ms-transform: skew(-45deg);
+				transform: skew(-45deg);
+			}
+			.skew-top {
+				background-color: white;
+				width: 3px;
+				height: .5rem;
+				margin-left: 14.7rem;
+				margin-top: -3.5rem;
+				margin-bottom: 1rem;
+				-webkit-transform: skew(45deg);
+	      		-ms-transform: skew(45deg);
+				transform: skew(45deg);
+			}
+			.skew-bottom {
+				background-color: white;
+				width: 3px;
+				height: .5rem;
+				margin-left: 11.7rem;
+				margin-top: .5rem;
+				margin-bottom: 1rem;
+				-webkit-transform: skew(45deg);
+	      		-ms-transform: skew(45deg);
+				transform: skew(45deg);
+			}
+			
+		}
+	}
+	.btn {
+		margin-top: 1.7rem;
+		padding-top: .7rem;
+		background-color: $cor-primaria;
+		border-radius: 0px;
+		font-weight: bold;
+		font-size: .9rem;
+		letter-spacing: -1px;
+	}
+}
+
+#quatro {
+	h2 {
+		margin-top: 4rem;
+		margin-bottom: 1.5rem;
+		font-size: 3rem;
+		font-weight: bold;
+		letter-spacing: -3px;
+		color: $cor-primaria;
+	}
+	.cards2 {
+		.card {
+			border-style: none;
+			border-radius: 0;
+			color: white;
+			background-color: #030303;
+			.seta {
+				float: right;
+				.reta {
+					width: 3rem;
+					margin-top: 1.6rem;
+					margin-right: 1rem;
+					height: 1px;
+					background-color: white;
+				}
+				.skew-bottom {
+					margin-top: -.5px;
+					margin-left: 2.8rem;
+					width: 2px;
+					height: .3rem;
+					background-color: white;
+					-webkit-transform: skew(-45deg);
+		      		-ms-transform: skew(-45deg);
+					transform: skew(-45deg);
+				}
+				.skew-top {
+					margin-top: -.6rem;
+					margin-left: 2.8rem;
+					width: 2px;
+					height: .3rem;
+					background-color: white;
+					-webkit-transform: skew(45deg);
+		      		-ms-transform: skew(45deg);
+					transform: skew(45deg);
+				}
+				.skew-top-off {
+					margin-top: -.34rem;
+					margin-left: 2.54rem;
+					width: 2px;
+					height: .2rem;
+					background-color: $cor-primaria;
+					-webkit-transform: skew(-45deg);
+		      		-ms-transform: skew(-45deg);
+					transform: skew(-45deg);
+				}
+				.skew-bottom-off {
+					margin-top: .323rem;
+					margin-left: 2.62rem;
+					width: 2px;
+					height: .2rem;
+					background-color: $cor-primaria;
+					-webkit-transform: skew(45deg);
+		      		-ms-transform: skew(45deg);
+					transform: skew(45deg);
+				}
+			}
+			.more {
+				float: right;
+				margin: 1rem 1rem 0 0;
+				p {
+					font-size: .8rem;
+				}
+			}
+
+			.texto {
+				width: 11rem;
+				margin-left: 1rem;
+				margin-bottom: 1rem;
+				margin-top: 66%;
+				h3 {
+					font-size: 1.5rem;
+					font-weight: bold;
+					letter-spacing: -2px;
+				}
+				p{
+					font-size: .65rem;
+				}
+				span {
+					p {
+						color: #bfbfbf;
+						font-size: .55rem;
+					}
+					.traco {
+						width: .7rem;
+						height: 1px;
+						background-color: #707070;
+						margin-top: -1rem;
+					}
+				}
+			}
+		}
+		.godoc {
+			background-color: #1F7CBF;
+			.card-img-overlay {
+				.texto {
+					span {
+						.traco {
+							background-color: white;
+						}
+					}
+				}
+			}
+		}
+		.gerencial {
+			.seta {
+				.skew-top-off,.skew-bottom-off {
+					background-color: black;
+				}
+			}
+			.card-img-overlay {
+				background-color: #000c;
+				color: white;
+			}
+		}
+		.vetherapy {
+			color: black;
+			background-color: #e4e4e4;
+			.seta {
+				.reta,.skew-bottom,.skew-top {
+					background-color: black;
+				}
+				.skew-top-off,.skew-bottom-off {
+					background-color: #e4e4e4;
+				}
+			}
+		}
+	}
+	.t4 {
+		margin-left: 14rem;
+		h2 {
+			font-size: 4rem;
+		}
+	}
+	.seta2 {
+		margin-top: -3.5rem;
+		.reta2 {
+			background-color: $cor-primaria;
+			width: 13rem;
+			height: 2px;
+		}
+		.skew-bottom2 {
+			margin-left: 12.5rem; 
+			margin-top: -1px;
+			width: 3px;
+			height: 1rem;
+			background-color: $cor-primaria;
+			-webkit-transform: skew(-45deg);
+      		-ms-transform: skew(-45deg);
+			transform: skew(-45deg);
+		}
+		.skew-top2 {
+			margin-left: 12.5rem; 
+			margin-top: -1.99rem;
+			width: 3px;
+			height: 1rem;
+			background-color: $cor-primaria;
+			-webkit-transform: skew(45deg);
+      		-ms-transform: skew(45deg);
+			transform: skew(45deg);
+		}
+	}
+}
+
+#rodape {
+	margin-top: 7rem;
+	background-color: $cor-primaria;
+	height: 50vh;
+	color: white;
+	.lista {
+		margin-top: 7rem;
+		font-weight: bold;
+		font-size: 2.3rem;
+		letter-spacing: 1px;
+		ul {
+			list-style: none;
+			li {
+				float: left;
+				a {
+					text-decoration: none;
+					color: white;
+				}
+				span {
+					font-weight: normal;
+					margin: 0 .2rem 0 .2rem;
+				}
+			}
+		}
+	}
+	.lista2 {
+		margin-top: 5rem;
+		font-weight: bold;
+		font-size: .55rem;
+		letter-spacing: 1px;
+		ul {
+			list-style: none;
+			li {
+				float: left;
+				margin-right: 2rem;
+				text-align: center;
+				a {
+					text-decoration: none;
+					color: white;
+				}
+			}
+		}
+	}
+}
